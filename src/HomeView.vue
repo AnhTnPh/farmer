@@ -1,5 +1,6 @@
 <template>
-
+	<!-- Introduction -->
+	<introduction-section></introduction-section>
 	<!-- Main section start -->
 	<main-section></main-section>
 	<!-- Main section end -->
@@ -29,6 +30,7 @@ import AboutSection from '@/sections/AboutSection.vue';
 import ServiceSection from '@/sections/ServiceSection.vue';
 import PortfolioSection from '@/sections/PortfolioSection.vue';
 import ContactSection from '@/sections/ContactSection.vue';
+import IntroductionSection from './sections/IntroductionSection.vue';
 
 export default {
 	components: {
@@ -37,6 +39,7 @@ export default {
 		ServiceSection,
 		PortfolioSection,
 		ContactSection,
+		IntroductionSection
 	}
 }
 </script>
