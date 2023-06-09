@@ -4,11 +4,11 @@
         <!-- Text wrapper start -->
         <div class="flex gap-8 flex-col md:flex-row">
             <!-- Main text start -->
-            <h1 class="uppercase text-5xl mb-4 font-semibold ">
-                OUR PORTFOLIO
+            <h1 class="uppercase text-5xl mb-4 font-semibold " style="color: #ff4655;">
+                Thư viện
             </h1>
             <p class="capitalize xl:w-1/2 text-stone-500 mb-8">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolores distinctio reiciendis obcaecati ea.
+                Hoạt động của server gần đây
             </p>
             <!-- Main text end -->
         </div>

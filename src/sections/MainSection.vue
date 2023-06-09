@@ -39,7 +39,7 @@
 			<!-- Photographer image start -->
 			<div :class="{'h-full w-full md:w-1/2 flex flex-col':!isMobile, 'h-full w-full mt-4':isMobile}" style="align-items: end;">
 				<video class="w-full h-full video-cover" playsinline loop autoplay muted preload="true">
-					<source :src='require("@/assets/video/Chienscon.mp4")' type="video/mp4">
+					<source :src='require("@/assets/video/highlight.mp4")' type="video/mp4">
 				</video>
 			</div>
 
