@@ -1,8 +1,8 @@
 <template>
     <section class="w-full">
-		<div class="w-full" style="height: 81px;">
+		<div class="w-full">
 			<!-- Navbar start -->
-				<nav class="w-screen fixed bg-opacity-90 bg-black p-4 lg:px-20 flex justify-between z-50">
+				<nav class="w-screen fixed bg-opacity-90 bg-black p-4 lg:px-20 flex justify-between z-50" style="z-index: 9999;">
 				<!-- Logo start -->
 				<div class="h-full flex flex-col justify-center cursor-pointer" @click="openLinkServer">
 					<p class="tracking-widest font-semibold text-white">Farmer 🧑🌾</p>
@@ -12,7 +12,7 @@
 
 				<!-- Toggler start -->
 				<button role="menubar" class="md:hidden" @click="navToggle()">
-					<i class="fa-solid fa-bars text-2xl"></i>
+					<i class="fa-solid fa-bars text-2xl text-white"></i>
 				</button>
 				<!-- Toggler end -->
 
@@ -23,7 +23,7 @@
 						<p class="mx-4 text-white">Home</p>
 					</a>
 
-					<a href="#" role="menuitem">
+					<a href="#about-section" role="menuitem">
 						<p class="mx-4 text-white">About</p>
 					</a>
 
